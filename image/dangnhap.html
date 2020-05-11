@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+      input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid white;
+      }
+      .login-form{
+        width: 100%;
+        max-width: 400px;
+        margin-right:300px;
+        margin-top: 120px;
+        margin-bottom: 20px;
+        margin-left: 750px;
+        background-image:url("/image/background2.jpg");
+        padding: 15px;
+        border-radius: 10px;
+    }
+      main{
+        background-image:url("/image/background2.jpg");
+        min-height: 300px;
+        padding: 7.5px 15px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;   
+        animation-name: example;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+            0% {background-image: url("/image/background.jpg");}
+    
+            20% {background-image: url("/image/background1.jpg");}
+            
+            40% {background-image: url("/image/background2.jpg");}
+           
+            60% {background-image: url("/image/background3.jpg");}
+            
+            80% {background-image: url("/image/background4.jpg");}
+            
+            100% {background-image: url("/image/background5.jpg");}
+        }   
+    .btn-box{
+        text-align: center;
+        margin-top: 30px;
+        color:blue;
+    }
+    h3{
+      margin-left: 130px;
+      margin-right: 100px;
+      margin-bottom: 20px;
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px red;
+    
+    }
+    @media screen and (max-width: 768px){
+            .login-form{
+                text-align: center;
+                margin-left: 100px;
+                margin-bottom: 50px;
+            }
+        }
+        input[type=txt] {
+            border-radius: 4px;
+            font-size: 5px;
+            background-color: white;
+            padding: 10px 10px 10px 10px;  
+        }
+        input[type=txt]:focus {
+        width: 100%;
+        }
+        h2 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                      
+              </button>
+                    <a class="navbar-brand" href="#myPage">
+                        <h1>PVP</h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <a><span class ="glyphicon glyphicon-earphone"></span>
+                      <strong>  Hotline: </strong>  (028) 5445 777 &#8739;
+                      Folow us : <a href="https://www.facebook.com/"><i class='fab fa-facebook-square'></i></a>&ensp;
+                        <a href="https://www.instagram.com/?hl=vi"><i class='fab fa-instagram-square'></i></a> &ensp;
+                        <input type="txt" name="search" placeholder="Search..">
+                        </a>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="duan.html">DỰ ÁN</a></li>
+                        <li><a href="canho.html">CĂN HỘ CHO THUÊ</a></li>
+                        <li><a href="dichvu.html">DỊCH VỤ</a></li>
+                        <li><a href="vietbai.html">VIẾT BÀI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="login-form">
+                <h3 style="color: cornsilk;">Log in now</h3>
+                <form>
+                    <input class="form-control" id="username" name="username" placeholder="Name" type="text" required>
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+                    <input class="form-control" id="pass" name="password" placeholder="Password" type="text" required>
+                    <li><input type="checkbox" name="remember"> Remember login</li>
+                    <div class="btn-box"><button type="submit"> Đăng nhập </button></div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div id="lienhe" class="container bg-gey">
+        <h2 class="text-center"><strong>LIÊN HỆ</strong></h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Hãy liên hệ với chúng tôi</p>
+                <p><span class="glyphicon glyphicon-map-marker"> </span> 475A Điện Biên Phủ, P25, Q.Bình Thạnh, TPHCM</p><br>
+                <p><span class="glyphicon glyphicon-phone"> </span> (028) 5445 777</p><br>
+                <p><span class="glyphicon glyphicon-envelope"> </span> Pvp@gmail.com</p><br>
+                <p>Theo dõi : <a href="https://www.facebook.com/"><i class='fab fa-facebook-square'></i></a>
+                    <a href="https://www.instagram.com/?hl=vi"><i class='fab fa-instagram-square'></i></a>
+                </p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Tên" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="coments" name="coments" placeholder="Ghi chú" row="5"></textarea> <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default fa-pull-right" type="submit">Gửi yêu cầu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

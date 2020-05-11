@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .jumbotron{
+        background-image: url("/image/background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        padding: 180px 25px;
+        animation-name: example;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+        0% {background-image: url("/image/background.jpg");}
+
+        20% {background-image: url("/image/background1.jpg");}
+        
+        40% {background-image: url("/image/background2.jpg");}
+       
+        60% {background-image: url("/image/background3.jpg");}
+        
+        80% {background-image: url("/image/background4.jpg");}
+        
+        100% {background-image: url("/image/background5.jpg");}
+    }   
+    .container-fluid{
+        padding: 50px 80px;
+    }
+    .bg-grey{
+        background: #f6f6f6;
+    }
+    .logo-small{
+        color:royalblue;
+        font-size: 50px;
+    }
+    .logo{
+        color: royalblue;
+        font-size: 200px;
+    }
+    @media screen and (max-width: 768px){
+        .col-sm-4{
+            text-align: center;
+            margin: 25px 0;
+        }
+    }
+
+    input[type=txt] {
+        border-radius: 4px;
+        font-size: 5px;
+        background-color: white;
+        padding: 10px 10px 10px 10px;  
+    }
+    input[type=txt]:focus {
+    width: 100%;
+    }
+    h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+    h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                      
+            </button>
+                <a class="navbar-brand" href="#myPage">
+                    <h1>PVP</h1>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <a><span class ="glyphicon glyphicon-earphone"></span>
+                    <strong>  Hotline: </strong>  (028) 5445 777 &#8739;
+                    Folow us : <a href="https://www.facebook.com/"><i class='fab fa-facebook-square'></i></a>&ensp;
+                    <a href="https://www.instagram.com/?hl=vi"><i class='fab fa-instagram-square'></i></a> &ensp;
+                    <a href="dangnhap.html" title="Đăng nhập vào tài khoản" target="_parent">
+                    <span class="glyphicon glyphicon-off"></span></a>
+                    <input type="txt" name="search" placeholder="Search..">
+                    </a>
+                    <li><a href="#gioithieu">GIỚI THIỆU</a></li>
+                    <li><a href="#duan">DỰ ÁN</a></li>
+                    <li><a href="#tintuc">TIN TỨC</a></li>
+                    <li><a href="#dichvu">DỊCH VỤ</a></li>
+                    <li><a href="#lienhe">LIÊN HỆ</a></li>
+                    <li><a href="#phapluat">TƯ VẤN PHÁP LUẬT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>YOUR CHOICE_YOUR LIFE</h1>
+        <p>Vì một cuộc sống tươi đẹp cho mọi nhà !!!</p>
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+    </div>
+    </div>
+    <div id="gioithieu" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2> Giới thiệu PVP</h2><br>
+                <h5><strong>PVP - Bên cạnh những tâm huyết - Hệ thống chung cư còn giúp bạn dễ dàng thanh toán các chi tiêu sinh hoạt hằng tháng,
+                    chúng tôi còn là đơn vị haksdq djiwdq .</strong>
+                </h5>
+                <p>Chúng tôi cam kết chất lượng hàng đầu, hiện đại nhất, thuận tiện nhất,thân thiện nhất .</p>
+                <br><button class="btn btn-default btn-lg ">Liên hệ với chúng tôi</button>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-signal logo"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class=" glyphicon glyphicon-globe logo "></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Giá trị của PVP mang lại</h2><br>
+                <h5><strong>Tiện nghi, an ninh:</strong>Trung tâm hành chính là khu vực tập trung toàn bộ hoặc phần lớn cơ quan như UBND, HĐND, các sở ngành và các đơn vị sự nghiệp. Các tiện ích đi kèm như trường học, bệnh viện, thương mại, giải trí, công
+                    viên... theo đó cũng mọc lên, giúp nâng cao chất lượng sống cho cư dân. Do tập trung toàn bộ hoặc phần lớn các cơ quan quản lý đầu não, nên khu vực trung tâm hành chính có an ninh nghiêm ngặt hơn. Ngoài ra, đóng vai trò như "bộ mặt"
+                    của mỗi địa phương, khu trung tâm hành chính thường được ưu tiên phát triển cảnh quan đô thị.</h5><br>
+                <h5><strong>Giao thông kết nối:</strong>Mục đích cuối cùng của các cơ quan hành chính công vẫn là để phục vụ người dân. Nên địa điểm đặt trung tâm thường được nằm giữa tâm điểm kết nối giao thông với các khu vực còn lại cũng như giao thông
+                    liên vùng. Các hạ tầng giao thông cũng được chú trọng đầu tư, giúp việc kết nối được thông suốt, hỗ trợ người dân thực hiện các thủ tục công hoặc liên hệ công việc.</h5><br>
+                <h5><strong>Tiềm năng tăng giá nhà đất:</strong>Sở hữu những lợi thế liên quan đến chất lượng sống và khả năng kết nối giao thương, khu vực trung tâm hành chính có tiềm năng phát triển bất động sản để ở và bất động sản thương mại, dịch vụ,
+                    văn phòng. Đây cũng thường là khu vực có giá bán nhà đất thuộc loại cao nhất và cũng tăng nhanh nhất trong khu vực.</h5><br>
+            </div>
+        </div>
+    </div>
+    <div id="dichvu" class="container-fluid text-center">
+        <h2>Dịch Vụ</h2>
+        <h4>Các dịch vụ chúng tôi bao gồm</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="thongbao.html"><span class="glyphicon glyphicon-bell logo-small"></span></a>
+                <h4>Notification</h4>
+                <p>Thông báo của quản lý đến dân cư</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="noiquy.html"><span class="glyphicon glyphicon-alert logo-small"></span></a>
+                <h4>Rules</h4>
+                <p>Nội quy của chung cư</p>
+            </div>
+            <div class="col-sm-4">
+                <a href="hopdong.html"><span class="glyphicon glyphicon-briefcase logo-small"></span></a>
+                <h4>Contract</h4>
+                <p>Hợp đồng của chung cư với dân cư</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="hopdong.html"><span class="glyphicon glyphicon-list-alt logo-small"></span></a>
+                <h4>Bill</h4>
+                <p>Hóa đơn điện nước</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-usd logo-small"></span>
+                <h4>Transfers</h4>
+                <p>Dịch vụ chuyển tiền</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4>Management System</h4>
+                <p>Hệ thống quản lý chung cư</p>
+            </div>
+        </div>
+    </div>
+    <div id="duan" class="container-fluid text-center bg-gey">
+        <h2><strong>Dự Án Tiêu Biểu</strong></h2><br>
+        <h4><strong>Một trong những dự án tiêu biểu của PVP đã triển khai</strong></h4>
+        <div id="myCarousel" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner " role="listbox">
+                <div class="item active item-center">
+                    <img src="baner1.jpg" alt="Los Angeles" width="1200" height="200">
+                </div>
+                <div class="item">
+                    <img src="baner2.jpg" alt="Los Angeles" width="1200" height="200">
+                </div>
+                <div class="item">
+                    <img src="baner4.jpg" alt="Los Angeles" width="1200" height="200">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="lienhe" class="container-fluid bg-gey">
+        <h2 class="text-center"><strong>LIÊN HỆ</strong></h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Hãy liên hệ với chúng tôi</p>
+                <p><span class="glyphicon glyphicon-map-marker"> </span> 475A Điện Biên Phủ, P25, Q.Bình Thạnh, TPHCM</p><br>
+                <p><span class="glyphicon glyphicon-phone"> </span> (028) 5445 777</p><br>
+                <p><span class="glyphicon glyphicon-envelope"> </span> Pvp@gmail.com</p><br>
+                <p>Theo dõi : <a href="https://www.facebook.com/"><i class='fab fa-facebook-square'></i></a>
+                    <a href="https://www.instagram.com/?hl=vi"><i class='fab fa-instagram-square'></i></a>
+                </p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Tên" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="coments" name="coments" placeholder="Ghi chú" row="5"></textarea> <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default fa-pull-right" type="submit">Gửi yêu cầu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
